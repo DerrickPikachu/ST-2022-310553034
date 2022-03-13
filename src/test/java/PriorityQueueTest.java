@@ -11,7 +11,7 @@ import org.junit.jupiter.params.provider.MethodSource;
 public class PriorityQueueTest {
     static Stream<Arguments> streamProvider() {
         return Stream.of(
-                Arguments.of(new int[]{1, 2, 3, 4}, new int[]{1, 2, 3, 4}),
+                Arguments.of(new int[]{1, 2, 3, 4}, new int[]{1, 2, 3}),
                 Arguments.of(new int[]{5, 7, 2, 3, 6}, new int[]{2, 3, 5, 6, 7}),
                 Arguments.of(new int[]{5}, new int[]{5}),
                 Arguments.of(new int[]{}, new int[]{}),
